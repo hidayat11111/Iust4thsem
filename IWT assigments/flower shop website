@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>infinity flowers</title>
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        overflow: hidden;
+        background-color: cornsilk;
+        height: 70px;
+        /* overflow: hidden; */
+      }
+      nav p {
+        overflow: hidden;
+        position: relative;
+        top: 23px;
+        left: 155px;
+        font-style: italic;
+        font-size: larger;
+        text-decoration: none;
+      }
+      .flowerlogo {
+        overflow: hidden;
+        width: 27px;
+        position: relative;
+        left: 288px;
+        top: -6px;
+      }
+      nav ul{
+        overflow: hidden;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          list-style: none;
+          position: relative;
+          bottom: 32px;
+          cursor: pointer;
+          font-size: 13px;
+      }
+      nav ul li{
+        overflow: hidden;
+          padding: 0px 33px;
+          border-radius: 6px;
+
+      }
+      li:hover{
+          background-color: pink;
+      }
+      main{
+        overflow: hidden;
+      }
+      main .flowerslider{
+        overflow: hidden;
+          width: 100%;
+          height: 400px;
+      }
+      main .pp p{
+        position: relative;
+    bottom: 303px;
+    left: 470px;
+    font-size: 10px;
+    
+}
+main .p p{
+  font-size: 33px;
+position: relative;
+bottom: 293px;
+left: 456px;
+}
+main .freshflower{
+  width: 30px;
+position: relative;
+bottom: 65px;
+left: 327px;
+}
+main .freshness{
+  overflow: hidden;
+  position: relative;
+bottom: 109px;
+left: 373px;
+font-size: 15px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main .made{
+  overflow: hidden;
+  position: relative;
+bottom: 127px;
+left: 598px;
+font-size: 15px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma,sans-serif;
+}
+main .madeby{
+  width: 30px;
+position: relative;
+bottom: 148px;
+left: 552px;
+}
+main .courierlogo{
+  overflow: hidden;
+position: relative;
+bottom: 140px;
+width: 21px;
+left: 757px;
+}
+main .c{
+  overflow: hidden;
+  position: relative;
+bottom: 184px;
+left: 826px;
+font-size: 15px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma,sans-serif;
+}
+main .ist p{
+  overflow: hidden;
+  position: relative;
+bottom: 176px;
+left: 377px;
+font-size: 11px;
+}
+main .second p{
+  overflow: hidden;
+  position: relative;
+bottom: 202px;
+left: 600px;
+font-size: 11px;
+
+}
+main .third p{
+  overflow: hidden;
+  position: relative;
+bottom: 230px;
+left: 830px;
+font-size: 11px;
+}
+main .istpic{
+  overflow: hidden;
+  width: 150px;
+  position: relative;
+  bottom: 200px;
+  left: 365px;
+}
+main .secondpic{
+  overflow: hidden;
+  width: 155px;
+  height: 272px;
+  position: relative;
+  bottom: 202px;
+  left: 444px;
+
+}
+main .thirdpic{
+  overflow: hidden;
+  width: 151px;
+  height: 272px;
+  position: relative;
+  bottom: 202px;
+  left:504px ;
+ 
+}
+/* @media screen and (max-width:800px) {
+nav p{
+overflow: hidden;
+position: relative;
+top: 2px;
+left: 7px;
+font-style: italic;
+font-size: larger;
+text-decoration: none;
+} */
+main .foot{
+  position: relative;
+    bottom: 151px;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 107px;
+}
+
+      
+    </style>
+  </head>
+  <header>
+    <nav>
+      <p>Infinity Flowers</p>
+      <img src="flowerlogo.jpg" class="flowerlogo" alt="" />
+      <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>SERVICES</li>
+          <li>SHOP</li>
+          <li>CONTACT</li>
+      </ul>
+    </nav>
+  </header>
+  <body> 
+      <main>
+        <div id="hassan" class="slider">
+          <img src="flowerslider.jpg" class="flowerslider" alt=""> </div>
+         <div class="pp"> <p>ARTIFICIAL fLOWERS,FRESH FLOWERS AND GIFT SHOP</p> </div>
+          <div class="p">
+          <p>Making beautiful flowers <br> a part of your life.</p> </div>
+          <img src="freshflowwer.jpg" class="freshflower" alt="">
+          <div class="freshness">100% freshness</div>
+          <div class="made">Suggest by artist</div>
+          <img src="madeby.jpg" class="madeby" alt="">
+          <img src="courier.jpg" class="courierlogo" alt="">
+          <div class="c">
+            <p>Own courier</p>
+          </div>
+          <div class="ist"><p>Most people are unaware of the <br> less common flower</p>
+         </div>
+          <div class="second"><p>Our collection is truly suggested<br> by professional artists </p></div>
+          <div class="third"><p>our product is fully sanitized and <br> have fast delivery</p></div>
+          <img src="istpic.jpg" class="istpic" alt="">
+          <img src="secondpic.jpg" class="secondpic" alt="">
+          <img src="thirdpic.jpg.png" class="thirdpic" alt="">
+         <div class="foot"> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam in commodi veniam consequuntur ducimus ea repellendus et quia nobis! Amet officiis tenetur corrupti accusantium beatae voluptatum incidunt voluptate, nihil, quaerat, aliquid dolores ab culpa error architecto earum excepturi obcaecati explicabo. Obcaecati, dolor? Nulla, ipsa harum?</p> </div>
+      </main>
+     
+  </body>
+</html>
