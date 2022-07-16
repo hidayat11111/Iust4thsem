@@ -1,0 +1,33 @@
+#include<iostream>
+
+using namespace std;
+
+#include<string.h>
+
+int main(){
+   char string[26];
+   cout<<"enter the string max 25" <<endl ;
+   cin.getline(string,25);
+   int len=strlen(string);
+   
+   int i,j,flag=1;
+
+   for(i=0 , j=len-1; i<len/2; i++,j--)
+   {
+    if(string[i]!=string[j])
+    {
+        flag=0;
+        break;
+    }
+   }
+   if(flag){
+    cout<<"string is pallindrome";
+   }
+   else{
+    cout<<"not pallindrome";
+   }
+
+   return 0;
+
+
+}
