@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+
+    <style>
+        html{
+            overflow: hidden;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:  'Courier New', Courier, monospace;
+        }
+    header{
+        background-image: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d5/9c/b8/stone-wood-nature-resort.jpg?w=900&h=-1&s=1');
+        /* background-image: url("IMG_20211022_010357.jpg"); */
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    ul{
+      list-style-type: none;
+      float: right;
+      margin-top: 20px;
+      margin-right: 12px;
+      
+    }
+
+    ul li{
+        display:inline-block ;
+        color: #fff;
+        padding: 3px 35px;
+     border: 1px solid #fff;
+     border-radius: 10% ;
+     transition: 0.6s ease;
+    }
+
+    ul li:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    .title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .title h1{
+        color: #fff;
+        font-size: 70px;
+    }
+    .button{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+   
+    .btn{
+        border: 1px solid #fff;
+        border-radius: 10%;
+        padding: 10px 30px;
+        color: white;
+        text-decoration: none;
+        transition: 0.6s ease;
+    }
+    .bbtn{
+
+        border: 1px solid #fff;
+        border-radius: 10%;
+        padding: 10px 30px;
+        color: white;
+        text-decoration: none;
+        transition: 0.6s ease;
+
+    }
+
+    .btn:hover{
+        background-color: #fff;
+        color: black;
+    }
+    .bbtn:hover{
+        background-color: #fff;
+        color: black;
+
+    }
+  
+ @media screen and (max-width : 800px) {
+    .title h1{
+        font-size:30px ;
+    }
+    .bbtn{
+  position: absolute;
+  top: 70px;
+  left: 5%;
+    }
+}
+
+    @media screen and (max-width : 570px) {
+        .btn{
+  position: relative;
+  top: 21px;
+        }
+        
+    }
+    @media screen and (min-width: 800px) and (max-width : 1345px)
+    {
+        .btn{
+            position: relative;
+        top: 79px;
+        }
+     .bbtn{
+        position: relative;
+        top: 79px;
+     }
+
+    }
+    </style>
+    <body>
+       <header>
+        <div class="conatiner">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Gallery</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        </div>
+       </header>
+       <div class="title"><h1>
+        WEBDEV CREATIONS</h1>
+       </div>
+       <div class="button">
+        <a href="#" class="btn">WATCH VIDEO</a>
+        <a href="#" class="bbtn">LEARN MORE</a>
+       </div>
+        
+
+    </body>
+</head>
+</html>
