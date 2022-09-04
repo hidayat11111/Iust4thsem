@@ -16,14 +16,20 @@
             margin: 0;
         }
         body{
-            overflow: hidden;
-            overflow-y: scroll;
+           
+            overflow: scroll;
+        }
+
+        body header{
+            position: sticky;
+            top: 0;
         }
  
    body header nav {
     /* width: 100%; */
     height: 80px;
-    background-color: white;
+    background-color: wheat;
+   
 
    }
 
@@ -49,6 +55,9 @@
 
     text-decoration: none;
     color: black;
+  padding: 1px 10px;
+  border: 1px solid rbga(0 0 0 0.7);
+  border-radius: 10px;
 
    }
 
@@ -62,32 +71,47 @@
 
    }
    .back{
-    background: url('https://images.unsplash.com/photo-1518002171953-a080ee817e1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+
+    overflow: hidden;
+    background: url('https://wallpapercave.com/wp/wp2984928.jpg');
+    background-position: center;
+    width: 100%;
     height: 500px;
    }
+  
    body header nav input{
     font-size: 17px;
     width: 293px;
 height: 34px;
 position: absolute;
 top: 23px;
-right: 180px;
+right: 149px;
 border-radius: 10px;
 padding: 0px 10px;
    }
 .search{
     width: 40px;
 position: absolute;
-left: 83%;
+left: 85%;
 height: 29px;
 top: 28px;
 }
 .back p{
     color: white;
+position: absolute;
+left: 2%;
+top: 134px;
+font-size: 70px;
+}
+
+.nothing{
+overflow: hidden;
+    color: white;
   position: absolute;
-  left: 73%;
-  top: 235px;
+  left: 5%;
+  top: 216px;
   font-size: 70px;
+  
 }
 body header nav p{
     position: absolute;
@@ -135,7 +159,10 @@ a:hover{
     line-height: 1px;
     position: absolute;
     left: 5%;;
-    bottom: 34px;
+    bottom: 20px;
+    text-decoration: underline rgba(0, 0, 0, 0.6);
+    text-decoration-thickness: 1px;
+    font-weight: bolder;
 }
 
 .lists{
@@ -145,6 +172,12 @@ a:hover{
 
     display: flex;
     justify-content: space-evenly;
+}
+   
+
+.lists:hover{
+
+background-color:rgba(245, 222, 179, 0.6) ;
 
 
 }
@@ -153,52 +186,113 @@ a:hover{
 }
 
 .lists .l1 ul li a{
-    color: darkolivegreen;
+    color: darkred;
     text-decoration: none;
     font-weight: 800;
-    
+    padding: 1px 12px;
+   
+    border-radius: 10px;
 }
 
 .lists .l2 ul li a{
-    color: darkolivegreen;
+    color: darkred;
     text-decoration: none;
     list-style-type: none;
     font-weight: 800;
+    padding: 1px 12px;
+   
+    border-radius: 10px;
 }
 
 .lists .l3 ul li a{
-    color: darkolivegreen;
+    color: darkred;
     text-decoration: none;
     list-style-type: none;
     font-weight: 800;
+    padding: 1px 12px;
+    
+    border-radius: 10px;
 }
     .lists .l1 ul li a:hover{
 
-        background-color: grey;
-        color: black;
+        background-color:black;
+        color:white;
         cursor: pointer;
-        border-radius: 5px;
-
+        border-radius: 10px;
+       
     }
 
     .lists .l2 ul li a:hover{
 
-        background-color:grey;
-        color:black;
+        background-color:black;
+        color:white;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 10px;
+       
 
     }
 
     .lists .l3 ul li a:hover{
 
-        background-color:grey;
-        color:black;
+        background-color:black;
+        color:white;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 10px;
+       
 
     }
 
+    #place::placeholder{
+        font-size: 16px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+
+   
+
+#foot
+{
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    color: #000;
+    background-color:rgba(255, 255, 0, 0.8);
+
+}
+
+.h2{
+
+    font-family: var(--gl-heading-font-set-family-standard-14),var(--gl-font-family-fallback);
+
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000;
+    margin-left: 19%;
+    margin-top: 30px;
+}
+
+
+#bt{
+    background-color: #000;
+
+    width: 120px;
+    height:50px;
+   
+    margin-left: 60%;
+  position: relative;
+  bottom: 40px;
+ 
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(245, 222, 179, 0.9);
+}
+
+#bt a{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
 
 
 
@@ -218,7 +312,7 @@ a:hover{
  <img src="https://i.pinimg.com/564x/1b/60/4c/1b604c577799e5b52c361f88fdefca1a.jpg" alt=" image not load">
 
 
-  <input type="text" placeholder="search">
+  <input id="place" type="text" placeholder="search">
 
 <a href="thnaku"><img  class="search" src="https://media.istockphoto.com/vectors/search-find-lupa-icon-or-logo-illustration-flat-vector-sign-isolated-vector-id1163240397?k=20&m=1163240397&s=170667a&w=0&h=LDqraSVlEjD5TZNzFEyoL20MPUnJkzEUgjC4KAAxZX8=" alt="">
   </a>
@@ -249,11 +343,13 @@ a:hover{
         </nav>
     </header>
 
-    <div class="back"> <p>Impossible is nothing</p></div>
-    <br>
-    <br>
+    <div class="back"> <p>Impossible is </p> </div>
+    <p class="nothing">Nothing</p>
 
-    <div class="line"> <h2>OUR OTHER CATEGORIES</h2> </h1></div>
+
+    <div class="line"> <h2>OUR OTHER CATEGORIES</h2></div>
+
+    <br> <br>
 
 
     <div class="lists">
@@ -303,6 +399,13 @@ a:hover{
 
 
    
+
+    </div>
+
+    <div id="foot">
+
+        <h2 class="h2">JOIN ADDIDAS AND GET 15% OFF</h2>
+        <button id="bt" type="button"><a href="https://www.adidas.co.in/outlet?cm_mmc=AdieSEM_Google-_-%7Bcampaign%7D-_-%7Badgroup%7D-_-adidaa&cm_mmca1=IN&cm_mmca2=e&gclid=Cj0KCQjwmdGYBhDRARIsABmSEeMfbgEocLmpV0epwhkEHNuDIJdGe168bKUSQIbPh3rmuFHTEqYhA2IaAoreEALw_wcB"> <B>SIGN UP &rarr; </B></a></button>
 
     </div>
 
