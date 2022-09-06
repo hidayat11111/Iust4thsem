@@ -1,259 +1,268 @@
-  /* form table   */
+  
+/* form table   */
   
   
   
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      * {
+          padding: 0;
+          margin: 0;
+      }
 
-        body {
-            overflow: hidden;
-        }
+      body {
+          overflow: hidden;
+      }
 
-        form {
-            background-color: darkkhaki;
-            width: 50%;
-            height: 600px;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            border-radius: 20px;
-            margin: 25px auto;
-            /* max-width: 500px;
-            margin: auto; */
-            box-shadow: 0px 0px 30px rgba(128, 128, 128, 1);
-
-
-            /* box-shadow: 7px 7px gray; */
-
-        }
-
-        #contact {
-            align-self: flex-start;
-            padding: 17px 22px;
-            color: rgba(0, 0, 0, 0.8);
-            font-size: xx-large;
-            font-weight: 800;
-            letter-spacing: 2px;
-            word-spacing: 6px;
-            text-decoration: underline rgba(0, 0, 0, 0.5);
-            text-decoration-thickness: 1px;
-        }
-
-        #form {
-            align-self: flex-start;
-            position: absolute;
-            top: 26px;
-            left: 490px;
-            color: rgba(0, 0, 0, 0.8);
-            font-size: xx-large;
-            font-weight: 800;
-            letter-spacing: 2px;
-            word-spacing: 6px;
-            text-decoration: underline rgba(0, 0, 0, 0.5);
-            text-decoration-thickness: 1px;
-        }
+      form {
+          background-color: darkkhaki;
+          width: 50%;
+          height: 600px;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 20px;
+          margin: 25px auto;
+          /* max-width: 500px;
+          margin: auto; */
+          box-shadow: 0px 0px 30px rgba(128, 128, 128, 1);
 
 
+          /* box-shadow: 7px 7px gray; */
 
-        #f1 {
-            padding: 20px;
-            font-size: 19px;
-            font-weight: bolder;
+      }
 
-        }
+      #contact {
+          align-self: flex-start;
+          padding: 17px 22px;
+          color: rgba(0, 0, 0, 0.8);
+          font-size: xx-large;
+          font-weight: 800;
+          letter-spacing: 2px;
+          word-spacing: 6px;
+          text-decoration: underline rgba(0, 0, 0, 0.5);
+          text-decoration-thickness: 1px;
+      }
 
-        #fname {
-            width: 169px;
-            color: black;
-            font-size: 15px;
-            font-weight: bolder;
-            padding: 3px 8px;
-            border: 1px solid black;
-            border-radius: 10px;
-        }
-
-        #f2 {
-
-            padding: 20px;
-            font-size: 19px;
-            font-weight: bolder;
-
-        }
-
-        #em{
-            width: 200px;
-            color: black;
-            font-size: 15px;
-            font-weight: bolder;
-            padding: 4px 8px;
-            border: 1px solid black;
-            border-radius: 10px;
-
-        }
-
-        #fname:focus{
-            background-color: black;
-            color: white;
-        }
-
-       
-
-        #em:focus{
-            background-color: black;
-            color: white;
-        }
-
-        .f3{
-
-            padding: 20px;
-            font-size: 19px;
-            font-weight: bolder;
-
-        }
-
-        .f4{
-            font-size: 19px;
-            font-weight: bolder;
-            color: maroon;
-        }
-        .f5{
-            font-size: 19px;
-            font-weight: bolder;
-            color: maroon;
+      #form {
+          align-self: flex-start;
+          position: absolute;
+          top: 43px;
+          left: 496px;
+          color: rgba(0, 0, 0, 0.8);
+          font-size: xx-large;
+          font-weight: 800;
+          letter-spacing: 2px;
+          word-spacing: 6px;
+          text-decoration: underline rgba(0, 0, 0, 0.5);
+          text-decoration-thickness: 1px;
+      }
 
 
-        }
+
+      #f1 {
+          padding: 20px;
+          font-size: 19px;
+          font-weight: bolder;
+
+      }
+
+      #fname {
+          width: 169px;
+          color: black;
+          font-size: 15px;
+          font-weight: bolder;
+          padding: 3px 8px;
+          border: 1px solid black;
+          border-radius: 10px;
+      }
+
+      #f2 {
+
+          padding: 20px;
+          font-size: 19px;
+          font-weight: bolder;
+
+      }
+
+      #em{
+          width: 200px;
+          color: black;
+          font-size: 15px;
+          font-weight: bolder;
+          padding: 4px 8px;
+          border: 1px solid black;
+          border-radius: 10px;
+
+      }
+
+      #fname:focus{
+          background-color: black;
+          color: white;
+      }
+
+     
+
+      #em:focus{
+          background-color: black;
+          color: white;
+      }
+
+      .f3{
+
+          padding: 20px;
+          font-size: 19px;
+          font-weight: bolder;
+
+      }
+
+      .f4{
+          font-size: 19px;
+          font-weight: bolder;
+          color: maroon;
+      }
+      .f5{
+          font-size: 19px;
+          font-weight: bolder;
+          color: maroon;
+
+
+      }
+
+  
+    .f6{
+      padding: 20px;
+          font-size: 19px;
+          font-weight: bolder;
+    }
+
+    .f7{
+
+     
+          font-size: 19px;
+          font-weight: bolder;
+          color: maroon;
+    }
 
     
-      .f6{
-        padding: 20px;
-            font-size: 19px;
-            font-weight: bolder;
-      }
+    .f8{
+          font-size: 19px;
+          font-weight: bolder;
+          color: maroon;
+    }
 
-      .f7{
+    #f9{
 
-       
-            font-size: 19px;
-            font-weight: bolder;
-            color: maroon;
-      }
+      padding: 20px;
+          font-size: 19px;
+          font-weight: bolder;
 
-      
-      .f8{
-            font-size: 19px;
-            font-weight: bolder;
-            color: maroon;
-      }
+    }
 
-      #f9{
+    #cou{
+      color: black;
+      font-weight: bolder;
+    }
 
-        padding: 20px;
-            font-size: 19px;
-            font-weight: bolder;
+    #cou:focus{
+      background-color: black;
+      color: white;
+    }
 
-      }
+    #f10{
 
-      #cou{
-        color: black;
-        font-weight: bolder;
-      }
+          padding: 20px;
+          font-size: 19px;
+          font-weight: bolder;
 
-      #cou:focus{
+    }
+
+    #tex{
+      font-size: 15px;
+      font-weight: bolder;
+      margin: 0px 10px;
+      padding-left: 2px;
+      padding-top: 2px;
+    }
+
+    #tex:focus{
+      background-color: bisque;
+      color: black;
+    }
+
+    #btt{
+
+      margin-left: 40%;
+      width: 120px;
+      height: 40px;
+      background-color: rgba(0, 0, 0, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(128, 128, 128, 1);
+      color: white;
+      letter-spacing: 1px;
+      font-weight: bolder;
+    }
+
+    #btt:hover{
         background-color: black;
         color: white;
-      }
+        
+    }
 
-      #f10{
 
-            padding: 20px;
-            font-size: 19px;
-            font-weight: bolder;
-
-      }
-
-      #tex{
-        font-size: 15px;
-        font-weight: bolder;
-        margin: 0px 10px;
-        padding-left: 2px;
-        padding-top: 2px;
-      }
-
-      #tex:focus{
-        background-color: bisque;
-        color: black;
-      }
-  
-      #btt{
-
-        margin-left: 40%;
-        width: 120px;
-        height: 40px;
-        background-color: rgba(0, 0, 0, 0.8);
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px rgba(128, 128, 128, 1);
-        color: white;
-        letter-spacing: 1px;
-        font-weight: bolder;
-      }
-      
+    
 
 
 
 
 
-    </style>
+  </style>
 </head>
 
 <body>
 
 
-    <form action="thanku">
+  <form action="thanku">
 
-        <label id="contact" for="h1">Contact</label>
-        <label id="form" for="h1-1">form</label> <br> <br> <br>
+      <label id="contact" for="h1">Contact</label>
+      <label id="form" for="h1-1">form</label> <br> <br> <br>
 
-        <label id="f1" for="fname">Your Name :</label>
-        <input type="text" id="fname" name="fname" placeholder="first name" maxlength="30">
-        <input type="text" id="fname" name="fname" placeholder="last name" maxlength="30"> <br> <br> <br> 
+      <label id="f1" for="fname">Your Name :</label>
+      <input type="text" id="fname" name="fname" placeholder="first name" maxlength="30">
+      <input type="text" id="fname" name="fname" placeholder="last name" maxlength="30"> <br> <br> <br> 
 
-        <label id="f2" for="em">Your Email :</label>
-        <input type="email" id="em" name="em" placeholder="Enter your email" maxlength="30"> <br> <br> <br> 
-
-
-        <label class="f3" for="check">Are You From Computer science : </label>
-        <input type="checkbox" id="check" name="check">
-        <label class="f4" for="check">Yes</label>
-        <input type="checkbox" id="check" name="check">
-        <label class="f5" for="check">No</label> <br> <br> <br>
+      <label id="f2" for="em">Your Email :</label>
+      <input type="email" id="em" name="em" placeholder="Enter your email" maxlength="30"> <br> <br> <br> 
 
 
-        <label class=" f6" for="gen">Gender : </label>
-        <input type="radio" id="gen" name="gen">
-        <label class="f7" for="gen">Male</label>
-        <input type="radio" id="gen" name="gen">
-        <label class="f8" for="gen">Female</label> <br> <br> <br> 
+      <label class="f3" for="check">Are You From Computer science : </label>
+      <input type="checkbox" id="check" name="check">
+      <label class="f4" for="check">Yes</label>
+      <input type="checkbox" id="check" name="check">
+      <label class="f5" for="check">No</label> <br> <br> <br>
 
 
-        <label id="f9" for="cou">Choose the Course You Wannt to opt : </label>
+      <label class=" f6" for="gen">Gender : </label>
+      <input type="radio" id="gen" name="gen">
+      <label class="f7" for="gen">Male</label>
+      <input type="radio" id="gen" name="gen">
+      <label class="f8" for="gen">Female</label> <br> <br> <br> 
+
+
+      <label id="f9" for="cou">Choose the Course You Wannt to opt : </label>
 
 <select name="cou" id="cou">
-    <option value="Choose">Choose</option>
-  <option value="Web Development"> <b>Web Development</b></option>
-  <option value="Cyber Security" > <b> Cyber Security</b></option>
-  <option value="Block Chain"> <b> Block Chain </b></option>
-  <option value="AI ML"><b>AI ML</b></option>
+  <option value="Choose">Choose</option>
+<option value="Web Development"> <b>Web Development</b></option>
+<option value="Cyber Security" > <b> Cyber Security</b></option>
+<option value="Block Chain"> <b> Block Chain </b></option>
+<option value="AI ML"><b>AI ML</b></option>
 </select> <br> <br> <br>
 
 
@@ -263,13 +272,13 @@
 
 
 <button id="btt" type="button">Submit</button>
- 
 
 
 
- 
 
-    </form>
+
+
+  </form>
 
 
 
@@ -281,3 +290,8 @@
 </body>
 
 </html>
+
+
+
+
+
