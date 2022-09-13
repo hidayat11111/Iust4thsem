@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>box</title>
+	<style type="text/css">
+		body{
+
+		background-color: rgba(0, 0, 0, 0.3);
+		}
+		#a{ color: black;
+            font-family:cursive;
+
+		}
+		h1{
+			display: none;
+			text-align: center;
+		}
+		.ab{
+			height: 45vh;
+			margin: 50px;
+			border: 2px solid black;
+			border-radius: 50px;
+			padding: 100px;
+			background-color: rgba(0, 0, 0, 0.6);
+			cursor: pointer;
+
+		}
+		.ab:hover{
+			background-color: turquoise;
+		
+
+		}
+		.aa{
+			color: white;
+			cursor: pointer;
+			margin: 50px;
+			border: 2px solid black;
+			border-radius: 50px;
+			padding: 100px 10px 100px 10px;
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+		.aa:hover{
+
+			color: black;
+			background-color: wheat;
+		}
+		.aa p{
+			font-size: 1.3em;
+			font-weight: bolder;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: sans-serif;
+			animation: anim 1s infinite;
+		}
+
+		@keyframes anim {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);	
+			}
+
+		}
+
+	</style>
+</head>
+<body>
+	<h1>BOX MODEL</h1>
+	<div class="ab">
+		<div class="aa">
+			<p><big><b>IUST</b></big></p>
+		</div>
+	</div>
+	</body>
+</html>
