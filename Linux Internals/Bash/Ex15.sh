@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# sum of two number
+
+
 echo "Enter First Number"
 read num1
 
