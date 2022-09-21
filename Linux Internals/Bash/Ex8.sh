@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#syntax for logical operator 
+
 echo "Enter Username"
 read Username
 
