@@ -1,14 +1,14 @@
 #!/bin/bash
 
-echo "Enter Number"
+echo "enter no"
 read num
 
 if [ $num -eq 3 ];
 then
-echo "You Are Lucky"
+echo "u can in"
 elif [ $num -eq 5 ];
 then
-echo "You are Good"
+echo "u are most welcomeq"
 else
 echo "You Are not Lucky"
 fi
