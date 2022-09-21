@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#:'string from user' 
+
+
 echo "Enter First String"
 read str1
 
@@ -8,7 +11,7 @@ read str2
 
 echo "Concatnated Strings = "
 
-echo "$str1 $str2" #One Way
+echo "$str1 $str2" #same as  example 12
 
-str3=$str1$str2 #Another Way
+str3=$str1$str2 #same as example 12
 echo "$str3"
