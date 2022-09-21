@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#symtax for logical or operator
+
 echo "Enter Number"
 read num
 
