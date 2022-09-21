@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#programme to create dirrctory if not present 
+
 echo "Enter directory name"
 read ndir
 if [ -d "$ndir" ]
