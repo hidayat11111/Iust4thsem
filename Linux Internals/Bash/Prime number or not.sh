@@ -1,3 +1,8 @@
+
+#!/bin/bash
+
+#prime number or not
+
 number=53
 i=2
 flag=0
