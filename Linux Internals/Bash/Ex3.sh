@@ -2,10 +2,10 @@
 
 : '
 Use of Multi Line Commet using.
-All are Comments;
+
 '
 
 
-echo "Multiplication of Two Numbers"
+echo "Multi of Two no.s"
 ((Mul=10*20))
 echo $Mul 
