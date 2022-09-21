@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#it make a new directory
+
 echo "Enter directory name"
-read newdir
-`mkdir $newdir`
+read newdirectory
+`mkdir $newdirectory`
