@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#programe based on while print the number
+
 val=true
 count=1
 while [ $val ]
