@@ -1,6 +1,6 @@
 #!/bin/bash
 
-:'programe to check substring' 
+#programe to check substring 
 
 
 
