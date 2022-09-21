@@ -1,6 +1,9 @@
 # Program for Fibonacci
 # Series
 
+#!/bin/bash
+
+
 N=6
 a=0
 b=1
